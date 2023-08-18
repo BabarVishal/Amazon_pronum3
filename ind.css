@@ -358,10 +358,17 @@ margin-left: 20px;
     height: 300px;
 
 }
+    .box{
+    /* border: 2px solid black; */
+    height: 400px;
+    width: 100%;
+    background-color: white;
+    padding: 20px 0px 15px;
+}
 .shopsection{
     
     padding: 25px;
-     width: 1500px;
+    
      flex-direction: column;
     
 }
