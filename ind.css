@@ -142,6 +142,7 @@ span{
 
 .Herosection{
     background-image: url("hero_image.jpg");
+     
     height: 400px;
  background-size: cover;
  display: flex;
@@ -227,7 +228,7 @@ footer{
     font-size: 0.85rem;
    margin-top: 10px;
    color: gray;
-   padding-top:px;
+   
 }
 
  ul {
@@ -268,7 +269,9 @@ footer{
     font-size: 0.7rem;
     text-align: center;
     padding-top: 5px;
+    
 }
+
 @media only screen and (max-width:700px) {
   *{
     margin: 0%;
@@ -358,7 +361,7 @@ margin-left: 20px;
     height: 300px;
 
 }
-    .box{
+.box{
     /* border: 2px solid black; */
     height: 400px;
     width: 100%;
@@ -367,8 +370,9 @@ margin-left: 20px;
 }
 .shopsection{
     
-    padding: 25px;
-    width: 100%;
+    padding: 22px;
+     /* width: 1500px; */
+     width: 100%;
      flex-direction: column;
     
 }
@@ -386,3 +390,9 @@ margin-left: 20px;
     background-size: cover;
 }
 }
+ 
+
+
+
+   
+  
