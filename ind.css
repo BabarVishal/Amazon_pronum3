@@ -269,3 +269,113 @@ footer{
     text-align: center;
     padding-top: 5px;
 }
+@media only screen and (max-width:700px) {
+  *{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    /* background-color: rgb(202, 118, 118); */
+  }
+  /* body,html{
+    height: 100%;
+    width: 100%;
+  } */
+  .navbar{
+    height: 100px;
+    width: 100%;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    
+    align-items: center;
+    justify-content: center;
+  
+
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+    margin-right: auto;
+  
+ 
+}
+.logo{
+    background-image: url("amazon_logo.png");
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+  
+}
+
+.ad1, .ad2,.add-icon,.navsingin{
+   display: none;
+  }
+
+  .nav-search{
+width: 80%;
+margin-left: 20px;
+  }
+  .cart {
+    margin-top: -140px;
+    margin-left: 280px;
+  }
+  .panel{
+    height: 60px;
+    width: 100%;
+    background-color: #333535;
+    display: flex;
+    color: #f3f3f3;
+    justify-content: space-evenly;
+  
+}
+
+.panelall{
+    width: 1%;
+   flex-direction: column;
+   margin-right: auto;
+   margin-left: 15px;
+}
+.panelall p{
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.paneldels{
+    display: none;
+}
+
+.panelops{
+    height: 20px;
+    width: 90%;
+
+   padding: 5px;
+}
+
+.Herosection{
+    background-image: url("box5_image.jpg");
+    width: 100vw;
+    height: 300px;
+
+}
+.shopsection{
+    
+    padding: 25px;
+     width: 1500px;
+     flex-direction: column;
+    
+}
+.footertwo{
+    font-size: 10px;
+    font-weight: 800;
+    padding: 4px;
+    text-decoration: none;
+  
+}
+.logo{
+    background-image: url("amazon_logo.png");
+    height: 50px;
+  width: 100px;
+    background-size: cover;
+}
+}
